@@ -5,7 +5,10 @@ homepage: https://github.com/zino-app/graphql-flutter/tree/master/packages/graph
 publish_to: none
 dependencies:
   graphql: # 5.0.0
-    path: ../graphql
+    #path: ../graphql
+    git:
+      url: https://github.com/jamov/graphql-flutter.git
+      path: ./packages/graphql
   gql_exec: ^0.3.0
   flutter:
     sdk: flutter
